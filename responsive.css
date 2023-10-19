@@ -1,0 +1,51 @@
+@media (width > 1400px){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(./assets/Path\ 2.svg);
+        background-repeat: no-repeat;
+        background-position:center;
+    }
+
+    .container{
+        flex-direction: row;
+    }
+
+    .box1{
+        margin: 0 auto;
+        padding-left: 41px;
+        padding-right: 41px;
+        padding-top: 40px;
+    }
+
+    .box2{
+        position: relative;
+        top: 40px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .section4{
+        width: 600px;
+    }
+
+    .section3 h2{
+        text-align: left;
+    }
+
+    .section8{
+        position: absolute;
+        left: 400px;
+        top: -35px;
+        bottom: 200px;
+        padding: 40px 20px 40px 20px;
+    }
+}
+
+@media (width < 768px){
+    body{
+       background-image: url(./assets/Path\ 2\ Copy\ 2.svg);
+       background-repeat: no-repeat;
+    }
+}
+
